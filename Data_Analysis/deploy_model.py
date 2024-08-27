@@ -6,6 +6,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import classification_report, accuracy_score
 import gradio as gr
 import joblib
+import pickle
 
 # Read the dataset file with the Pandas 
 dataset_df = pd.read_csv("../Outputs/Employee_attrition.csv")
@@ -58,10 +59,10 @@ def predict_attrition(Age, BusinessTravel, DailyRate, Department, DistanceFromHo
 
     # Encode categorical variables
     for column in input_data.select_dtypes(include=['object']).columns:
-        le = LabelEncoder()
-        input_data[column] = le.fit_transform(input_data[column])
+        with open (f'{column}_label_encoder.pkl', 'rb') as file:
+            encoder = pickle.load(file)
+        input_data[column] = encoder.transform(input_data[column])
 
-    
     # Predict
     prediction = random_forest_model.predict(input_data)
     return "Yes" if prediction[0] == 1 else "No"
@@ -90,7 +91,7 @@ iface = gr.Interface(
         gr.Number(label="NumCompaniesWorked"),
         gr.Dropdown(choices=list(dataset_df['OverTime'].unique()), label="OverTime"),
         gr.Number(label="PercentSalaryHike"),
-        gr.Dropdown(choices=sorted(list(dataset_df['WorkLifeBalance'].unique()),reverse=False), label="PerformanceRating"),
+        gr.Dropdown(choices=sorted(list(dataset_df['PerformanceRating'].unique()),reverse=False), label="PerformanceRating"),
         gr.Dropdown(choices=sorted(list(dataset_df['RelationshipSatisfaction'].unique()),reverse=False), label="RelationshipSatisfaction"),
         gr.Dropdown(choices=sorted(list(dataset_df['StockOptionLevel'].unique()),reverse=False), label="StockOptionLevel"),
         gr.Number(label="TotalWorkingYears"),
