@@ -9,10 +9,10 @@ import joblib
 import pickle
 
 # Read the dataset file with the Pandas 
-dataset_df = pd.read_csv("../Outputs/Employee_attrition.csv")
+dataset_df = pd.read_csv("../Outputs/Dataset/Employee_attrition.csv")
 
 # Load machine learning model
-random_forest_model = joblib.load("../Outputs/random_forest_model.pkl")
+random_forest_model = joblib.load("../Outputs/Machine_Learning_models/random_forest_model.pkl")
 
 
 # Deploy with Gradio
@@ -59,7 +59,7 @@ def predict_attrition(Age, BusinessTravel, DailyRate, Department, DistanceFromHo
 
     # Encode categorical variables
     for column in input_data.select_dtypes(include=['object']).columns:
-        with open (f'{column}_label_encoder.pkl', 'rb') as file:
+        with open (f'../Outputs/Label_Encoders/{column}_label_encoder.pkl', 'rb') as file:
             encoder = pickle.load(file)
         input_data[column] = encoder.transform(input_data[column])
 
