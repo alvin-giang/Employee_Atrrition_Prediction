@@ -12,7 +12,7 @@ import pickle
 dataset_df = pd.read_csv("../Outputs/Dataset/Employee_attrition.csv")
 
 # Load machine learning model
-random_forest_model = joblib.load("../Outputs/Machine_Learning_models/random_forest_model.pkl")
+random_forest_model = joblib.load("../Outputs/Machine_Learning_models/optimized_random_forest_model.pkl")
 
 
 # Deploy with Gradio
