@@ -3,7 +3,10 @@
 ## Group_5_Project_4
 
 ### Collaborators:
-Thanh Vinh (Alvin) Giang, Mason seifaddini, Rekha renukappa, Uma Selvara
+Thanh Vinh (Alvin) Giang, Mason seifaddini, Rekha renukappa, Uma Selvaraj
+
+![image](https://github.com/user-attachments/assets/ffaf04dc-2cae-4328-8408-e3840c704585)
+
 
 ### Project Overview
 
