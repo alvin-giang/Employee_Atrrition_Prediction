@@ -5,6 +5,8 @@
 ### Collaborators:
 Thanh Vinh (Alvin) Giang, Mason seifaddini, Rekha renukappa, Uma Selvaraj
 
+https://cdnl.iconscout.com/lottie/premium/preview-watermark/incentive-and-welfare-program-for-employee-retention-11425110-9249760.mp4
+
 ### Project Overview
 
 Employee attrition is a critical issue for businesses, impacting productivity, morale, and financial performance. Predicting which employees are likely to leave a company can help HR departments proactively address retention risks. This project aims to build a machine learning model to predict employee attrition using a dataset from Kaggle. The project includes data preprocessing, exploratory data analysis (EDA), model selection, model optimization using GridSearchCV, and deployment of the final model using Gradio for interactive predictions.
