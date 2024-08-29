@@ -22,6 +22,8 @@ Key features include:
 * Other: Distance from Home, Total Working Years, Years at Company
 * The target variable is Attrition, which indicates whether an employee has left the company (Yes/No).
 
+All features in the dataset:
+
 * Age: The age of the employee (integer).
 * Attrition: Whether the employee has left the company or not (object).
 * BusinessTravel: Frequency of business travel (object).
