@@ -2,17 +2,17 @@
 
 ## Group_5_Project_4
 
-### Collaborators:
+### :writing_hand: Collaborators:
 Thanh Vinh (Alvin) Giang, Mason seifaddini, Rekha renukappa, Uma Selvaraj
 
 ![image](https://github.com/user-attachments/assets/ffaf04dc-2cae-4328-8408-e3840c704585)
 
 
-### Project Overview
+### :round_pushpin: Project Overview
 
 Employee attrition is a critical issue for businesses, impacting productivity, morale, and financial performance. Predicting which employees are likely to leave a company can help HR departments proactively address retention risks. This project aims to build a machine learning model to predict employee attrition using a dataset from Kaggle. The project includes data preprocessing, exploratory data analysis (EDA), model selection, model optimization using GridSearchCV, and deployment of the final model using Gradio for interactive predictions.
 
- ### Dataset Description
+ ### :file_folder: Dataset Description
 
 The dataset used in this project is HR-Employee-Attrition.csv, sourced from Kaggle. It contains data on employee demographics, job roles, salary, performance metrics, and whether they have left the company (attrition).
 
@@ -63,14 +63,14 @@ All features in the dataset:
 * YearsSinceLastPromotion: Number of years since the last promotion (integer).
 * YearsWithCurrManager: Number of years with the current manager (integer).
 
-### Repository Structure
+### :memo: Repository Structure
 
 * Data_Analysis: Stores all Jypyter notebooks detailling preprocessing, data analysis, model training, model optimizing, evaluation steps, and model deployment.
 * Outputs: Stores all visualizations, models, and endcoder files.
 * Resource: The initial datset
 * README.md: Overview of the project, including a step-by-step process.
 
-### Installation and Requirements
+### :warning: Installation and Requirements
 
 To set up the environment and run this project, you'll need to have Python installed along with several libraries. You can install the required packages using the following command:
 
@@ -127,7 +127,7 @@ After finalizing the best model, we will deploy it using Gradio, an easy-to-use 
 * Deploying Locally or on the Web: The Gradio interface can be deployed locally for testing or hosted online for wider access.
 * User Interaction: Users can interact with the model through the Gradio interface, making predictions and understanding which factors influence attrition in their inputs.
 
-### Future Work and Improvements
+### :sparkles: Future Work and Improvements
 
 While this project provides a robust model for predicting employee attrition, there are several areas for future work:
 
@@ -136,7 +136,7 @@ While this project provides a robust model for predicting employee attrition, th
 * Model Interpretability: Using tools like SHAP (SHapley Additive exPlanations) to explain individual predictions and understand model decisions at a granular level.
 * Deployment on Scalable Platforms: Deploying the model on cloud platforms like AWS, Google Cloud, or Azure for scalability and wider accessibility.
 
-### Conclusion
+### :key: Conclusion
 
 This project successfully demonstrates the application of a machine learning pipeline to predict employee attrition. By using data preprocessing, EDA, model selection, optimization, and deployment, we have built a model that can help businesses predict which employees are at risk of leaving. This information can be used to take proactive steps in improving employee retention, ultimately benefiting the organization.
 
