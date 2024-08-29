@@ -5,6 +5,8 @@
 ### Collaborators:
 Thanh Vinh (Alvin) Giang, Mason seifaddini, Rekha renukappa, Uma Selvaraj
 
+https://cdnl.iconscout.com/lottie/premium/preview-watermark/incentive-and-welfare-program-for-employee-retention-11425110-9249760.mp4
+
 ### Project Overview
 
 Employee attrition is a critical issue for businesses, impacting productivity, morale, and financial performance. Predicting which employees are likely to leave a company can help HR departments proactively address retention risks. This project aims to build a machine learning model to predict employee attrition using a dataset from Kaggle. The project includes data preprocessing, exploratory data analysis (EDA), model selection, model optimization using GridSearchCV, and deployment of the final model using Gradio for interactive predictions.
@@ -82,6 +84,7 @@ Data preprocessing is a crucial step to prepare the dataset for machine learning
 * Data balancing: Use SMOTE to create synthetic examples of minority class to reduce class imbalance.
 * Feature Scaling: Some algorithms require features to be on the same scale. We will use techniques like StandardScaler or MinMaxScaler to normalize the data.
 * Data Splitting: The dataset will be split into training and testing sets. Typically, 70-80% of the data is used for training, and the remaining 20-30% for testing.
+<<<<<<< HEAD
 
 2. Exploratory Data Analysis (EDA)
 
@@ -135,3 +138,5 @@ While this project provides a robust model for predicting employee attrition, th
 Conclusion
 
 This project successfully demonstrates the application of a machine learning pipeline to predict employee attrition. By using data preprocessing, EDA, model selection, optimization, and deployment, we have built a model that can help businesses predict which employees are at risk of leaving. This information can be used to take proactive steps in improving employee retention, ultimately benefiting the organization.
+=======
+>>>>>>> 8825fe2c9b93092e182bab41a84136e7dcae992e
