@@ -3,9 +3,7 @@
 ## Group_5_Project_4
 
 ### Collaborators:
-Thanh Vinh (Alvin) Giang, Mason seifaddini, Rekha renukappa, Uma Selvaraj
-
-https://cdnl.iconscout.com/lottie/premium/preview-watermark/incentive-and-welfare-program-for-employee-retention-11425110-9249760.mp4
+Thanh Vinh (Alvin) Giang, Mason seifaddini, Rekha renukappa, Uma Selvara
 
 ### Project Overview
 
@@ -126,7 +124,7 @@ After finalizing the best model, we will deploy it using Gradio, an easy-to-use 
 * Deploying Locally or on the Web: The Gradio interface can be deployed locally for testing or hosted online for wider access.
 * User Interaction: Users can interact with the model through the Gradio interface, making predictions and understanding which factors influence attrition in their inputs.
 
-Future Work and Improvements
+### Future Work and Improvements
 
 While this project provides a robust model for predicting employee attrition, there are several areas for future work:
 
@@ -135,8 +133,7 @@ While this project provides a robust model for predicting employee attrition, th
 * Model Interpretability: Using tools like SHAP (SHapley Additive exPlanations) to explain individual predictions and understand model decisions at a granular level.
 * Deployment on Scalable Platforms: Deploying the model on cloud platforms like AWS, Google Cloud, or Azure for scalability and wider accessibility.
 
-Conclusion
+### Conclusion
 
 This project successfully demonstrates the application of a machine learning pipeline to predict employee attrition. By using data preprocessing, EDA, model selection, optimization, and deployment, we have built a model that can help businesses predict which employees are at risk of leaving. This information can be used to take proactive steps in improving employee retention, ultimately benefiting the organization.
-=======
->>>>>>> 8825fe2c9b93092e182bab41a84136e7dcae992e
+
