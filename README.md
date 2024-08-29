@@ -60,3 +60,25 @@ All features in the dataset:
 * YearsSinceLastPromotion: Number of years since the last promotion (integer).
 * YearsWithCurrManager: Number of years with the current manager (integer).
 
+### Repository Structure
+
+* Data_Analysis: Stores all Jypyter notebooks detailling preprocessing, data analysis, model training, model optimizing, evaluation steps, and model deployment.
+* Outputs: Stores all visualizations, models, and endcoder files.
+* Resource: The initial datset
+* README.md: Overview of the project, including a step-by-step process.
+
+### Installation and Requirements
+
+To set up the environment and run this project, you'll need to have Python installed along with several libraries. You can install the required packages using the following command:
+
+`pip install pandas numpy matplotlib seaborn scikit-learn gradio`
+
+1. Data Preprocessing
+
+Data preprocessing is a crucial step to prepare the dataset for machine learning modeling. The key tasks involved in preprocessing include:
+
+* Handling Missing Values: Although the dataset is relatively clean, we will check for any missing values and handle them appropriately.
+* Encoding Categorical Variables: The dataset contains categorical variables (e.g., Gender, Job Role). These will be encoded using techniques like One-Hot Encoding or Label Encoding to convert them into a numerical format suitable for modeling.
+* Data balancing: Use SMOTE to create synthetic examples of minority class to reduce class imbalance.
+* Feature Scaling: Some algorithms require features to be on the same scale. We will use techniques like StandardScaler or MinMaxScaler to normalize the data.
+* Data Splitting: The dataset will be split into training and testing sets. Typically, 70-80% of the data is used for training, and the remaining 20-30% for testing.
