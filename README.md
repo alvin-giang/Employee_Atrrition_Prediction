@@ -15,12 +15,12 @@ The dataset used in this project is HR-Employee-Attrition.csv, sourced from Kagg
 
 Key features include:
 
-    * Employee Information: Age, Gender, Marital Status, Education
-    * Job Role: Department, Job Level, Job Role, Over Time
-    * Compensation: Monthly Income, Hourly Rate, Percent Salary Hike
-    * Performance: Job Satisfaction, Performance Rating, Work-Life Balance
-    * Other: Distance from Home, Total Working Years, Years at Company
-    * The target variable is Attrition, which indicates whether an employee has left the company (Yes/No).
+*Employee Information: Age, Gender, Marital Status, Education
+*Job Role: Department, Job Level, Job Role, Over Time
+*Compensation: Monthly Income, Hourly Rate, Percent Salary Hike
+*Performance: Job Satisfaction, Performance Rating, Work-Life Balance
+*Other: Distance from Home, Total Working Years, Years at Company
+*The target variable is Attrition, which indicates whether an employee has left the company (Yes/No).
 
     * Age: The age of the employee (integer).
     * Attrition: Whether the employee has left the company or not (object).
