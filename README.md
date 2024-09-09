@@ -2,9 +2,6 @@
 
 ## Group_5_Project_4
 
-## :writing_hand: Collaborators:
-Thanh Vinh (Alvin) Giang, Mason seifaddini, Rekha renukappa, Uma Selvaraj
-
 ![image](https://github.com/user-attachments/assets/ffaf04dc-2cae-4328-8408-e3840c704585)
 
 
@@ -142,3 +139,12 @@ While this project provides a robust model for predicting employee attrition, th
 
 This project successfully demonstrates the application of a machine learning pipeline to predict employee attrition. By using data preprocessing, EDA, model selection, optimization, and deployment, we have built a model that can help businesses predict which employees are at risk of leaving. This information can be used to take proactive steps in improving employee retention, ultimately benefiting the organization.
 
+## :writing_hand: Collaborators:
+* **Thanh Vinh (Alvin) Giang**: Team Lead and Developer
+* **Mason seifaddini**: Contributor
+* **Rekha renukappa**: Contributor
+* **Uma Selvaraj**: Contributor
+
+## License
+
+This project is licensed under the MIT License
